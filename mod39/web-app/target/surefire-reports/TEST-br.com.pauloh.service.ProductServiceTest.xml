@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.pauloh.service.ProductServiceTest" time="5.805" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/test-classes:/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/classes:/home/paulo/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/home/paulo/.m2/repository/cloud/piranha/servlet/piranha-servlet-webservlet/20.4.0/piranha-servlet-webservlet-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/piranha/20.4.0/piranha-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/piranha-api/20.4.0/piranha-api-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/resource/piranha-resource-api/20.4.0/piranha-resource-api-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/servlet/piranha-servlet-api/20.4.0/piranha-servlet-api-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/resource/piranha-resource/20.4.0/piranha-resource-20.4.0.jar:/home/paulo/.m2/repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar:/home/paulo/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/home/paulo/.m2/repository/org/hibernate/orm/hibernate-core/6.0.0.Alpha7/hibernate-core-6.0.0.Alpha7.jar:/home/paulo/.m2/repository/org/antlr/antlr4/4.9.1/antlr4-4.9.1.jar:/home/paulo/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/paulo/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/home/paulo/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar:/home/paulo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/paulo/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/paulo/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar:/home/paulo/.m2/repository/org/jboss/jandex/2.2.3.Final/jandex-2.2.3.Final.jar:/home/paulo/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/paulo/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/paulo/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/paulo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/home/paulo/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/home/paulo/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/home/paulo/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/home/paulo/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/home/paulo/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar:/home/paulo/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/home/paulo/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/paulo/.m2/repository/net/bytebuddy/byte-buddy/1.10.21/byte-buddy-1.10.21.jar:/home/paulo/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/paulo/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/paulo/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/paulo/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/home/paulo/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/home/paulo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/paulo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/jdk-17.0.8/lib"/>
+    <property name="sun.java.command" value="/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/surefire/surefirebooter2045789464848540164.jar /home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/surefire 2023-11-19T17-07-12_253-jvmRun1 surefire8731376114812374245tmp surefire_016316622234622984225tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/test-classes:/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/classes:/home/paulo/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/home/paulo/.m2/repository/cloud/piranha/servlet/piranha-servlet-webservlet/20.4.0/piranha-servlet-webservlet-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/piranha/20.4.0/piranha-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/piranha-api/20.4.0/piranha-api-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/resource/piranha-resource-api/20.4.0/piranha-resource-api-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/servlet/piranha-servlet-api/20.4.0/piranha-servlet-api-20.4.0.jar:/home/paulo/.m2/repository/cloud/piranha/resource/piranha-resource/20.4.0/piranha-resource-20.4.0.jar:/home/paulo/.m2/repository/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar:/home/paulo/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/home/paulo/.m2/repository/org/hibernate/orm/hibernate-core/6.0.0.Alpha7/hibernate-core-6.0.0.Alpha7.jar:/home/paulo/.m2/repository/org/antlr/antlr4/4.9.1/antlr4-4.9.1.jar:/home/paulo/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/paulo/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/home/paulo/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar:/home/paulo/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/paulo/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/paulo/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar:/home/paulo/.m2/repository/org/jboss/jandex/2.2.3.Final/jandex-2.2.3.Final.jar:/home/paulo/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/paulo/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/paulo/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/paulo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/home/paulo/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/home/paulo/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/home/paulo/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/home/paulo/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/home/paulo/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar:/home/paulo/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/home/paulo/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/paulo/.m2/repository/net/bytebuddy/byte-buddy/1.10.21/byte-buddy-1.10.21.jar:/home/paulo/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/paulo/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/home/paulo/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/home/paulo/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/home/paulo/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/home/paulo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/paulo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/paulo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="/opt/jdk-17.0.8"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app/target/surefire/surefirebooter2045789464848540164.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="paulo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.133.1-microsoft-standard-WSL2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/paulo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="/home/paulo/code/ebac/backend/tarefas_ebac_Paulo/mod39/web-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="readTest" classname="br.com.pauloh.service.ProductServiceTest" time="3.716"/>
+  <testcase name="updateTest" classname="br.com.pauloh.service.ProductServiceTest" time="0.771"/>
+  <testcase name="createTest" classname="br.com.pauloh.service.ProductServiceTest" time="0.434"/>
+  <testcase name="deleteTest" classname="br.com.pauloh.service.ProductServiceTest" time="0.821"/>
+</testsuite>
